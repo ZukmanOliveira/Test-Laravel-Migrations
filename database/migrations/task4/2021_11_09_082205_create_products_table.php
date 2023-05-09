@@ -29,6 +29,8 @@ class CreateProductsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('products');
+        Schema::table('categories', function(Blueprint $table){
+
+        });
     }
 }
