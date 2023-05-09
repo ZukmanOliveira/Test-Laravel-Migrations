@@ -10,11 +10,11 @@ class RenameCompaniesTable extends Migration
     public function up(): void
     {
         // TASK: add a migration to rename table "company" into "companies"
-        Schema::rename('company','companys');
+        Schema::rename('company','companies');
     }
     
     public function down(): void
     {
-        Schema::rename('company','company');
+        Schema::rename('company','companies');
     }
 }
